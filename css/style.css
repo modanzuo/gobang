@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.login {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #abc;
+}
+.login .login-con {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  width: 300px;
+  height: 200px;
+  background: #006600;
+  border: 3px solid #000000;
+}
+.login .login-con span {
+  display: block;
+  position: absolute;
+  top: 10px;
+  font-size: 38px;
+  left: 40px;
+}
+.login .login-con .name {
+  position: absolute;
+  left: 50px;
+  top: 65px;
+  line-height: 40px;
+  font-size: 38px;
+  width: 200px;
+}
+.login .login-con .bt {
+  background: #000088;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  top: 130px;
+  line-height: 50px;
+  text-align: center;
+  color: #eeeeee;
+  font-size: 38px;
+}
